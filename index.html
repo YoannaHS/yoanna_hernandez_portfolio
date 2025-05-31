@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoanna Hernandez - Product Owner & UX Leader</title>
+    <meta name="description"
+        content="Professional portfolio of Yoanna Hernandez, Product Owner & UX Leader specializing in digital product strategy and user experience design.">
+    <meta name="keywords"
+        content="UX Designer, UX Leader, Product Owner, UX Consultant, Product Manager, Design Strategist, Digital Product Specialist">
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config = { theme: { extend: { colors: { primary: '#000000', secondary: '#FFFFFF' }, borderRadius: { 'none': '0px', 'sm': '4px', DEFAULT: '8px', 'md': '12px', 'lg': '16px', 'xl': '20px', '2xl': '24px', '3xl': '32px', 'full': '9999px', 'button': '8px' } } } }</script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+</head>
+
+<body class="bg-white text-black">
+    <!-- Header/Navigation -->
+    <header class="fixed w-full bg-white z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold uppercase tracking-widest">YH</div>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#about" class="nav-link uppercase text-sm tracking-wider">About</a>
+                <a href="#projects" class="nav-link uppercase text-sm tracking-wider">Projects</a>
+                <a href="#process" class="nav-link uppercase text-sm tracking-wider">Process</a>
+                <a href="#experience" class="nav-link uppercase text-sm tracking-wider">Experience</a>
+                <a href="#contact" class="nav-link uppercase text-sm tracking-wider">Contact</a>
+                <div class="language-switch ml-6">
+                    <div class="flex items-center">
+                        <span class="uppercase text-sm tracking-wider">EN</span>
+                        <i class="ri-arrow-down-s-line ml-1"></i>
+                    </div>
+                    <div class="language-options">
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100" data-lang="en">English</a>
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100" data-lang="es">Español</a>
+                    </div>
+                </div>
+            </nav>
+            <button class="md:hidden w-8 h-8 flex items-center justify-center" id="mobileMenuButton">
+                <i class="ri-menu-line text-xl"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-white w-full absolute top-full left-0 py-4 shadow-md" id="mobileMenu">
+            <div class="container mx-auto px-6 flex flex-col space-y-4">
+                <a href="#about" class="uppercase text-sm tracking-wider py-2">About</a>
+                <a href="#projects" class="uppercase text-sm tracking-wider py-2">Projects</a>
+                <a href="#process" class="uppercase text-sm tracking-wider py-2">Process</a>
+                <a href="#experience" class="uppercase text-sm tracking-wider py-2">Experience</a>
+                <a href="#contact" class="uppercase text-sm tracking-wider py-2">Contact</a>
+                <div class="flex space-x-4 py-2">
+                    <a href="#" class="uppercase text-sm tracking-wider" data-lang="en">English</a>
+                    <a href="#" class="uppercase text-sm tracking-wider" data-lang="es">Español</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col md:flex-row">
+        <div class="w-full md:w-1/2 flex flex-col justify-center items-start p-12 md:p-24">
+            <div class="uppercase tracking-widest text-sm mb-4" id="hero-role">DIGITAL PRODUCT OWNER</div>
+            <div class="uppercase tracking-widest text-xs mb-12" id="hero-subtitle">UX DESIGNER</div>
+            <h1 class="text-5xl md:text-6xl font-medium mb-8" id="hero-name">YOANNA<br>HERNANDEZ</h1>
+            <div class="w-24 h-0.5 bg-black mb-8"></div>
+            <p class="text-lg mb-12" id="hero-tagline">Empowering teams to build meaningful digital experiences</p>
+            <a href="#contact"
+                class="border border-black px-8 py-3 uppercase text-sm tracking-wider hover:bg-black hover:text-white transition-colors !rounded-button whitespace-nowrap">Get
+                in touch</a>
+        </div>
+        <div class="w-full md:w-1/2 h-screen md:h-auto relative">
+            <img src="assets/mein_picture.jpg" alt="Foto principal Yoanna Hernandez"
+                class="w-full h-full object-cover object-top">
+            <div class="absolute bottom-12 right-12">
+                <div class="uppercase tracking-widest text-white text-xl">PORTFOLIO</div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="py-24 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-1/3 h-full bg-gray-50 transform -skew-x-12"></div>
+        <div class="absolute top-1/4 right-0 w-64 h-64 bg-gray-100 rounded-full opacity-50"></div>
+        <div class="container mx-auto px-6 relative">
+            <div class="flex flex-col md:flex-row items-start gap-16">
+                <div class="w-full md:w-1/2 pr-0 md:pr-12 mb-12 md:mb-0">
+                    <h2 class="text-3xl md:text-4xl font-medium mb-8" id="about-title">About Me</h2>
+                    <div class="w-24 h-0.5 bg-black mb-8"></div>
+                    <div class="space-y-6">
+                        <p id="about-p1">I am a passionate Product Owner and UX Leader with over 8 years of experience
+                            in digital product development. My expertise lies in bridging the gap between business
+                            objectives and user needs, creating products that deliver exceptional value.</p>
+                        <p id="about-p2">With a background in both design and product management, I bring a unique
+                            perspective to every project. I believe in data-driven decision making, collaborative
+                            approaches, and continuous improvement.</p>
+                        <p id="about-p3">My work spans across financial services, education, tourism, and technology
+                            sectors, where I've successfully led cross-functional teams to deliver innovative digital
+                            solutions.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 relative">
+                    <div class="grid grid-cols-12 grid-rows-6 gap-4 h-[600px]">
+                        <div class="col-span-8 row-span-3 relative overflow-hidden rounded-2xl">
+                            <img src="assets/dia_en_parapente.jpg" alt="Professional work environment"
+                                class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black opacity-10"></div>
+                        </div>
+                        <div class="col-span-4 row-span-4 col-start-9 relative overflow-hidden rounded-2xl">
+                            <img src="assets/lisboa.jpg" alt="UX workshop" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black opacity-10"></div>
+                        </div>
+                        <div class="col-span-6 row-span-3 row-start-4 relative overflow-hidden rounded-2xl">
+                            <img src="assets/corsica.jpg" alt="Team collaboration" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black opacity-10"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="py-24">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-medium mb-8 text-center" id="projects-title">Highlighted Projects</h2>
+            <div class="w-24 h-0.5 bg-black mx-auto mb-16"></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Project 1 -->
+                <div class="project-card group">
+                    <div class="overflow-hidden mb-6">
+                        <img src="assets/BBVA_challenge.png" alt="UX Challenge – BBVA"
+                            class="w-full h-64 object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <h3 class="text-xl font-medium mb-3" id="project1-title">UX Challenge – BBVA</h3>
+                    <p class="mb-4" id="project1-desc">Led a comprehensive UX redesign for BBVA's mobile banking
+                        application, The bank aimed to improve foreign exchange simulation within the BBVA app. The
+                        intention was to increase the number of transactions carried out through this process and to
+                        establish it as the go-to digital option for currency exchange among users.
+                        I decided to conduct research using ChatGPT and Alsoasked, implementing AI and maximising
+                        technology to overcome the challenge. I successfully reduced research time by 80%.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs px-3 py-1 border border-black">UX Research</span>
+                        <span class="text-xs px-3 py-1 border border-black">IA</span>
+                        <span class="text-xs px-3 py-1 border border-black">ChatGPT</span>
+                        <span class="text-xs px-3 py-1 border border-black">Product Strategy</span>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card group">
+                    <div class="overflow-hidden mb-6">
+                        <img src="assets/captaciones.png" alt="Talent Acquisition – Universidad del Pacífico"
+                            class="w-full h-64 object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <h3 class="text-xl font-medium mb-3" id="project2-title">Talent Acquisition – Universidad del
+                        Pacífico</h3>
+                    <p class="mb-4" id="project2-desc">Education in crisis due to COVID-19: How did the pandemic impact
+                        university enrolments? Over the past three years, there has been a noticeable decline in the
+                        number of applications and university admissions, a situation exacerbated by the pandemic. Given
+                        this scenario, the goal was to increase enrolments, and research methods were implemented to
+                        determine the best way to reach high school students in their final years. As a result, we
+                        achieved a 40% increase in enrolments and admission processes.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs px-3 py-1 border border-black">Product Ownership</span>
+                        <span class="text-xs px-3 py-1 border border-black">Stakeholder Management</span>
+                        <span class="text-xs px-3 py-1 border border-black">Agile Development</span>
+                        <span class="text-xs px-3 py-1 border border-black">UX Strategy</span>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card group">
+                    <div class="overflow-hidden mb-6">
+                        <img src="assets/promperu.jpg" alt="MICE Tourism – PromPerú"
+                            class="w-full h-64 object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <h3 class="text-xl font-medium mb-3" id="project3-title">MICE Tourism – PromPerú</h3>
+                    <p class="mb-4" id="project3-desc">Created a website for promoting Peru as a premier destination for
+                        Meetings, Incentives, Conferences, and Exhibitions (MICE) tourism. The site emphasises the
+                        country's unique features, including its impressive tourist attractions, exquisite cuisine, and
+                        modern facilities for international conferences.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs px-3 py-1 border border-black">Digital Strategy</span>
+                        <span class="text-xs px-3 py-1 border border-black">Content Planning</span>
+                        <span class="text-xs px-3 py-1 border border-black">User Research</span>
+                        <span class="text-xs px-3 py-1 border border-black">Analytics</span>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card group">
+                    <div class="overflow-hidden mb-6">
+                        <img src="assets/up_experience.png" alt="App UPexperience – Universidad del Pacífico"
+                            class="w-full h-64 object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <h3 class="text-xl font-medium mb-3" id="project4-title">App UPexperience – Universidad del Pacífico
+                    </h3>
+                    <p class="mb-4" id="project4-desc">Led the development of a comprehensive mobile application
+                        enhancing the student experience at Universidad del Pacífico. The app integrated academic
+                        resources, campus services, and community features, resulting in 85% adoption among students.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs px-3 py-1 border border-black">Product Management</span>
+                        <span class="text-xs px-3 py-1 border border-black">UX/UI Design</span>
+                        <span class="text-xs px-3 py-1 border border-black">Agile Development</span>
+                        <span class="text-xs px-3 py-1 border border-black">User Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Work Process Section -->
+    <section id="process" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-medium mb-8 text-center" id="process-title">How I Work</h2>
+            <div class="w-24 h-0.5 bg-black mx-auto mb-16"></div>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
+                <!-- Process 1 -->
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 flex items-center justify-center mx-auto mb-6 border border-black rounded-full">
+                        <i class="ri-team-line ri-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-medium mb-4" id="process1-title">Stakeholder Management</h3>
+                    <p class="text-sm" id="process1-desc">Building strong relationships with all stakeholders to align
+                        business goals with user needs, ensuring clear communication and expectations throughout the
+                        project lifecycle.</p>
+                </div>
+                <!-- Process 2 -->
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 flex items-center justify-center mx-auto mb-6 border border-black rounded-full">
+                        <i class="ri-search-line ri-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-medium mb-4" id="process2-title">UX Research</h3>
+                    <p class="text-sm" id="process2-desc">Conducting comprehensive user research to understand
+                        behaviors, needs, and motivations, using methodologies such as interviews, surveys, and
+                        usability testing to inform product decisions.</p>
+                </div>
+                <!-- Process 3 -->
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 flex items-center justify-center mx-auto mb-6 border border-black rounded-full">
+                        <i class="ri-lightbulb-line ri-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-medium mb-4" id="process3-title">Product Definition</h3>
+                    <p class="text-sm" id="process3-desc">Translating research insights into clear product requirements,
+                        creating user stories, defining features, and establishing success metrics that align with both
+                        business objectives and user needs.</p>
+                </div>
+                <!-- Process 4 -->
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 flex items-center justify-center mx-auto mb-6 border border-black rounded-full">
+                        <i class="ri-layout-line ri-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-medium mb-4" id="process4-title">UX Design</h3>
+                    <p class="text-sm" id="process4-desc">Creating intuitive and engaging user experiences through
+                        wireframing, prototyping, and iterative design processes, focusing on usability, accessibility,
+                        and visual coherence.</p>
+                </div>
+                <!-- Process 5 -->
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 flex items-center justify-center mx-auto mb-6 border border-black rounded-full">
+                        <i class="ri-list-check-line ri-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-medium mb-4" id="process5-title">Product Backlog Management</h3>
+                    <p class="text-sm" id="process5-desc">Prioritizing features and requirements based on business value
+                        and user impact, managing the product backlog, and collaborating with development teams to
+                        ensure successful implementation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Media Section -->
+    <section class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row gap-12">
+                <!-- Instagram Feed -->
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-2xl font-medium mb-8" id="instagram-title">Latest Updates</h2>
+                    <div class="w-24 h-0.5 bg-black mb-8"></div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="aspect-square bg-gray-100 flex items-center justify-center">
+                            <img src="https://readdy.ai/api/search-image?query=UX%20design%20workshop%20with%20sticky%20notes%20on%20wall%2C%20black%20and%20white%20photography%2C%20minimalist%20composition%2C%20professional%20setting&width=300&height=300&seq=10&orientation=squarish"
+                                alt="Instagram post" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="aspect-square bg-gray-100 flex items-center justify-center">
+                            <img src="https://readdy.ai/api/search-image?query=Digital%20product%20team%20meeting%20in%20modern%20office%2C%20black%20and%20white%20photography%2C%20minimalist%20composition%2C%20professional%20setting&width=300&height=300&seq=11&orientation=squarish"
+                                alt="Instagram post" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="aspect-square bg-gray-100 flex items-center justify-center">
+                            <img src="https://readdy.ai/api/search-image?query=User%20interface%20sketches%20and%20wireframes%20on%20desk%2C%20black%20and%20white%20photography%2C%20minimalist%20composition%2C%20professional%20setting&width=300&height=300&seq=12&orientation=squarish"
+                                alt="Instagram post" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="aspect-square bg-gray-100 flex items-center justify-center">
+                            <img src="https://readdy.ai/api/search-image?query=Product%20management%20conference%20presentation%2C%20black%20and%20white%20photography%2C%20minimalist%20composition%2C%20professional%20setting&width=300&height=300&seq=13&orientation=squarish"
+                                alt="Instagram post" class="w-full h-full object-cover object-top">
+                        </div>
+                    </div>
+                    <a href="https://instagram.com" target="_blank"
+                        class="inline-block mt-6 uppercase text-sm tracking-wider hover:underline">Follow on
+                        Instagram</a>
+                </div>
+                <!-- Podcast -->
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-2xl font-medium mb-8" id="podcast-title">Featured Podcast</h2>
+                    <div class="w-24 h-0.5 bg-black mb-8"></div>
+                    <div class="bg-gray-100 p-6">
+                        <h3 class="text-xl mb-4" id="podcast-episode-title">The Future of UX in Product Development</h3>
+                        <p class="mb-6" id="podcast-episode-desc">In this episode, I discuss how UX methodologies are
+                            evolving to meet the challenges of modern product development, and how product owners can
+                            leverage user-centered design to create more successful digital experiences.</p>
+                        <div class="bg-gray-200 h-12 flex items-center px-4 mb-4">
+                            <div class="w-8 h-8 flex items-center justify-center mr-4">
+                                <i class="ri-play-fill ri-lg"></i>
+                            </div>
+                            <div class="flex-1 h-1 bg-gray-300 relative">
+                                <div class="absolute h-1 bg-black w-1/3"></div>
+                            </div>
+                            <div class="ml-4 text-sm">24:18</div>
+                        </div>
+                        <a href="#" class="inline-block uppercase text-sm tracking-wider hover:underline">View all
+                            episodes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience Section -->
+    <section id="experience" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row gap-12">
+                <!-- CV/Experience -->
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-2xl font-medium mb-8" id="experience-title">Professional Experience</h2>
+                    <div class="w-24 h-0.5 bg-black mb-8"></div>
+                    <div class="timeline-item">
+                        <h3 class="text-lg font-medium" id="job1-title">Senior Product Owner</h3>
+                        <p class="text-sm mb-1" id="job1-company">BBVA Digital Banking</p>
+                        <p class="text-xs mb-4" id="job1-period">2021 - Present</p>
+                        <p class="text-sm" id="job1-desc">Leading digital transformation initiatives for retail banking
+                            products, managing cross-functional teams, and implementing agile methodologies to improve
+                            product development processes.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3 class="text-lg font-medium" id="job2-title">UX Lead & Product Manager</h3>
+                        <p class="text-sm mb-1" id="job2-company">Universidad del Pacífico</p>
+                        <p class="text-xs mb-4" id="job2-period">2018 - 2021</p>
+                        <p class="text-sm" id="job2-desc">Directed the design and development of digital products for
+                            educational purposes, including mobile applications and web platforms to enhance student
+                            experience and administrative efficiency.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3 class="text-lg font-medium" id="job3-title">UX Consultant</h3>
+                        <p class="text-sm mb-1" id="job3-company">PromPerú</p>
+                        <p class="text-xs mb-4" id="job3-period">2016 - 2018</p>
+                        <p class="text-sm" id="job3-desc">Provided strategic UX consulting for tourism promotion
+                            initiatives, conducting user research and developing digital strategies to attract
+                            international visitors and business events to Peru.</p>
+                    </div>
+                    <a href="#"
+                        class="inline-block mt-8 border border-black px-6 py-2 uppercase text-sm tracking-wider hover:bg-black hover:text-white transition-colors !rounded-button whitespace-nowrap">Download
+                        Full CV</a>
+                </div>
+                <!-- Testimonials -->
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-2xl font-medium mb-8" id="testimonials-title">Client Testimonials</h2>
+                    <div class="w-24 h-0.5 bg-black mb-8"></div>
+                    <div class="mb-10">
+                        <p class="italic mb-4" id="testimonial1-text">"Yoanna's approach to product management
+                            transformed our digital banking experience. Her user-centered methodology and strategic
+                            vision helped us achieve remarkable improvements in customer satisfaction and engagement."
+                        </p>
+                        <p class="font-medium" id="testimonial1-name">Carlos Mendoza</p>
+                        <p class="text-sm" id="testimonial1-position">Digital Transformation Director, BBVA</p>
+                    </div>
+                    <div class="mb-10">
+                        <p class="italic mb-4" id="testimonial2-text">"Working with Yoanna on our university's digital
+                            platforms was an exceptional experience. Her ability to understand both student needs and
+                            institutional requirements resulted in products that truly enhanced our educational
+                            ecosystem."</p>
+                        <p class="font-medium" id="testimonial2-name">Maria Sanchez</p>
+                        <p class="text-sm" id="testimonial2-position">Dean of Innovation, Universidad del Pacífico</p>
+                    </div>
+                    <div>
+                        <p class="italic mb-4" id="testimonial3-text">"Yoanna's expertise in UX strategy significantly
+                            contributed to positioning Peru as a premier MICE tourism destination. Her data-driven
+                            approach and creative solutions helped us attract international events and boost our tourism
+                            sector."</p>
+                        <p class="font-medium" id="testimonial3-name">Javier Rodriguez</p>
+                        <p class="text-sm" id="testimonial3-position">Marketing Director, PromPerú</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Languages Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-16">
+                <div class="text-center">
+                    <h3 class="text-xl font-medium mb-4" id="language1-title">English</h3>
+                    <div class="flex justify-center">
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                    </div>
+                    <p class="mt-2 text-sm" id="language1-level">Professional Proficiency</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-xl font-medium mb-4" id="language2-title">Spanish</h3>
+                    <div class="flex justify-center">
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                    </div>
+                    <p class="mt-2 text-sm" id="language2-level">Native Speaker</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-xl font-medium mb-4" id="language3-title">Portuguese</h3>
+                    <div class="flex justify-center">
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-black rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-gray-300 rounded-full mx-1"></div>
+                        <div class="w-3 h-3 bg-gray-300 rounded-full mx-1"></div>
+                    </div>
+                    <p class="mt-2 text-sm" id="language3-level">Intermediate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-medium mb-8 text-center" id="contact-title">Get in Touch</h2>
+            <div class="w-24 h-0.5 bg-black mx-auto mb-16"></div>
+            <div class="flex flex-col md:flex-row gap-12">
+                <!-- Contact Form -->
+                <div class="w-full md:w-1/2">
+                    <form class="space-y-8">
+                        <div>
+                            <label for="name" class="block text-sm uppercase tracking-wider mb-2"
+                                id="contact-name-label">Name</label>
+                            <input type="text" id="name"
+                                class="w-full py-2 px-0 bg-transparent border-none border-b border-black focus:outline-none">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm uppercase tracking-wider mb-2"
+                                id="contact-email-label">Email</label>
+                            <input type="email" id="email"
+                                class="w-full py-2 px-0 bg-transparent border-none border-b border-black focus:outline-none">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm uppercase tracking-wider mb-2"
+                                id="contact-message-label">Message</label>
+                            <textarea id="message" rows="4"
+                                class="w-full py-2 px-0 bg-transparent border-none border-b border-black focus:outline-none"></textarea>
+                        </div>
+                        <label class="custom-checkbox flex items-start">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            <span class="text-sm" id="contact-consent">I agree to receive communications about your
+                                services and offerings.</span>
+                        </label>
+                        <button type="submit"
+                            class="border border-black px-8 py-3 uppercase text-sm tracking-wider hover:bg-black hover:text-white transition-colors !rounded-button whitespace-nowrap"
+                            id="contact-submit">Send Message</button>
+                    </form>
+                </div>
+                <!-- Contact Info -->
+                <div class="w-full md:w-1/2">
+                    <div class="mb-12">
+                        <h3 class="text-xl font-medium mb-6" id="contact-info-title">Contact Information</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center mr-4">
+                                    <i class="ri-mail-line"></i>
+                                </div>
+                                <span id="contact-email">hello@yoannahernandez.com</span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center mr-4">
+                                    <i class="ri-phone-line"></i>
+                                </div>
+                                <span id="contact-phone">+51 987 654 321</span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center mr-4">
+                                    <i class="ri-map-pin-line"></i>
+                                </div>
+                                <span id="contact-location">Lima, Peru</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-medium mb-6" id="contact-social-title">Connect With Me</h3>
+                        <div class="flex space-x-4">
+                            <a href="https://linkedin.com" target="_blank"
+                                class="w-10 h-10 flex items-center justify-center border border-black rounded-full hover:bg-black hover:text-white transition-colors">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                            <a href="https://behance.net" target="_blank"
+                                class="w-10 h-10 flex items-center justify-center border border-black rounded-full hover:bg-black hover:text-white transition-colors">
+                                <i class="ri-behance-fill"></i>
+                            </a>
+                            <a href="https://medium.com" target="_blank"
+                                class="w-10 h-10 flex items-center justify-center border border-black rounded-full hover:bg-black hover:text-white transition-colors">
+                                <i class="ri-medium-fill"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank"
+                                class="w-10 h-10 flex items-center justify-center border border-black rounded-full hover:bg-black hover:text-white transition-colors">
+                                <i class="ri-twitter-x-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-12 bg-black text-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="text-xl font-bold uppercase tracking-widest mb-2">YH</div>
+                    <p class="text-sm opacity-70" id="footer-copyright">© 2025 Yoanna Hernandez. All rights reserved.
+                    </p>
+                </div>
+                <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
+                    <a href="#" class="text-sm uppercase tracking-wider hover:opacity-70" id="footer-privacy">Privacy
+                        Policy</a>
+                    <a href="#" class="text-sm uppercase tracking-wider hover:opacity-70" id="footer-terms">Terms of
+                        Use</a>
+                    <div class="language-switch">
+                        <div class="flex items-center">
+                            <span class="uppercase text-sm tracking-wider">EN</span>
+                            <i class="ri-arrow-down-s-line ml-1"></i>
+                        </div>
+                        <div class="language-options bg-black">
+                            <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-800" data-lang="en">English</a>
+                            <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-800" data-lang="es">Español</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script id="mobileMenuScript">
+        document.addEventListener('DOMContentLoaded', function () {
+            const mobileMenuButton = document.getElementById('mobileMenuButton');
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenuButton.addEventListener('click', function () {
+                if (mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.remove('hidden');
+                    mobileMenuButton.innerHTML = '<i class="ri-close-line text-xl"></i>';
+                } else {
+                    mobileMenu.classList.add('hidden');
+                    mobileMenuButton.innerHTML = '<i class="ri-menu-line text-xl"></i>';
+                }
+            });
+            // Close mobile menu when clicking on a link
+            const mobileLinks = mobileMenu.querySelectorAll('a');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    mobileMenu.classList.add('hidden');
+                    mobileMenuButton.innerHTML = '<i class="ri-menu-line text-xl"></i>';
+                });
+            });
+        });
+    </script>
+    <script id="smoothScrollScript">
+        document.addEventListener('DOMContentLoaded', function () {
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        const headerOffset = 80;
+                        const elementPosition = targetElement.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+    <script id="languageSwitcherScript">
+        document.addEventListener('DOMContentLoaded', function () {
+            // Language translations
+            const translations = {
+                en: {
+                    // Hero section
+                    'hero-role': 'DIGITAL PRODUCT OWNER',
+                    'hero-subtitle': 'UX DESIGNER',
+                    'hero-name': 'YOANNA<br>HERNANDEZ',
+                    'hero-tagline': 'Empowering teams to build meaningful digital experiences',
+                    // About section
+                    'about-title': 'About Me',
+                    'about-p1': 'I am a passionate Product Owner and UX Leader with over 8 years of experience in digital product development. My expertise lies in bridging the gap between business objectives and user needs, creating products that deliver exceptional value.', 'about-p2': 'With a background in both design and product management, I bring a unique perspective to every project. I believe in data-driven decision making, collaborative approaches, and continuous improvement.',
+                    'about-p3': 'My work spans across financial services, education, tourism, and technology sectors, where I\'ve successfully led cross-functional teams to deliver innovative digital solutions.',
+                    // Projects section
+                    'projects-title': 'Highlighted Projects',
+                    'project1-title': 'UX Challenge – BBVA',
+                    'project1-desc': 'Led a comprehensive UX redesign for BBVA\'s mobile banking application, focusing on improving user journeys and transaction flows. The project resulted in a 32% increase in user satisfaction and 18% higher engagement rates.',
+                    'project2-title': 'Talent Acquisition – Universidad del Pacífico',
+                    'project2-desc': 'Developed a digital platform connecting students with potential employers, streamlining the recruitment process for Universidad del Pacífico. The solution reduced hiring time by 40% and increased student placement rates by 25%.',
+                    'project3-title': 'MICE Tourism – PromPerú',
+                    'project3-desc': 'Created a digital strategy for promoting Peru as a premier destination for Meetings, Incentives, Conferences, and Exhibitions (MICE) tourism. The initiative resulted in a 45% increase in international business events hosted in Peru.',
+                    'project4-title': 'App UPexperience – Universidad del Pacífico',
+                    'project4-desc': 'Led the development of a comprehensive mobile application enhancing the student experience at Universidad del Pacífico. The app integrated academic resources, campus services, and community features, resulting in 85% adoption among students.',
+                    // Process section
+                    'process-title': 'How I Work',
+                    'process1-title': 'Stakeholder Management',
+                    'process1-desc': 'Building strong relationships with all stakeholders to align business goals with user needs, ensuring clear communication and expectations throughout the project lifecycle.',
+                    'process2-title': 'UX Research',
+                    'process2-desc': 'Conducting comprehensive user research to understand behaviors, needs, and motivations, using methodologies such as interviews, surveys, and usability testing to inform product decisions.',
+                    'process3-title': 'Product Definition',
+                    'process3-desc': 'Translating research insights into clear product requirements, creating user stories, defining features, and establishing success metrics that align with both business objectives and user needs.',
+                    'process4-title': 'UX Design',
+                    'process4-desc': 'Creating intuitive and engaging user experiences through wireframing, prototyping, and iterative design processes, focusing on usability, accessibility, and visual coherence.',
+                    'process5-title': 'Product Backlog Management',
+                    'process5-desc': 'Prioritizing features and requirements based on business value and user impact, managing the product backlog, and collaborating with development teams to ensure successful implementation.',
+                    // Media section
+                    'instagram-title': 'Latest Updates',
+                    'podcast-title': 'Featured Podcast',
+                    'podcast-episode-title': 'The Future of UX in Product Development',
+                    'podcast-episode-desc': 'In this episode, I discuss how UX methodologies are evolving to meet the challenges of modern product development, and how product owners can leverage user-centered design to create more successful digital experiences.',
+                    // Experience section
+                    'experience-title': 'Professional Experience',
+                    'job1-title': 'Senior Product Owner',
+                    'job1-company': 'BBVA Digital Banking',
+                    'job1-period': '2021 - Present',
+                    'job1-desc': 'Leading digital transformation initiatives for retail banking products, managing cross-functional teams, and implementing agile methodologies to improve product development processes.',
+                    'job2-title': 'UX Lead & Product Manager',
+                    'job2-company': 'Universidad del Pacífico',
+                    'job2-period': '2018 - 2021',
+                    'job2-desc': 'Directed the design and development of digital products for educational purposes, including mobile applications and web platforms to enhance student experience and administrative efficiency.',
+                    'job3-title': 'UX Consultant',
+                    'job3-company': 'PromPerú',
+                    'job3-period': '2016 - 2018',
+                    'job3-desc': 'Provided strategic UX consulting for tourism promotion initiatives, conducting user research and developing digital strategies to attract international visitors and business events to Peru.',
+                    // Testimonials section
+                    'testimonials-title': 'Client Testimonials',
+                    'testimonial1-text': '"Yoanna\'s approach to product management transformed our digital banking experience. Her user-centered methodology and strategic vision helped us achieve remarkable improvements in customer satisfaction and engagement."',
+                    'testimonial1-name': 'Carlos Mendoza',
+                    'testimonial1-position': 'Digital Transformation Director, BBVA',
+                    'testimonial2-text': '"Working with Yoanna on our university\'s digital platforms was an exceptional experience. Her ability to understand both student needs and institutional requirements resulted in products that truly enhanced our educational ecosystem."',
+                    'testimonial2-name': 'Maria Sanchez',
+                    'testimonial2-position': 'Dean of Innovation, Universidad del Pacífico',
+                    'testimonial3-text': '"Yoanna\'s expertise in UX strategy significantly contributed to positioning Peru as a premier MICE tourism destination. Her data-driven approach and creative solutions helped us attract international events and boost our tourism sector."',
+                    'testimonial3-name': 'Javier Rodriguez',
+                    'testimonial3-position': 'Marketing Director, PromPerú',
+                    // Languages section
+                    'language1-title': 'English',
+                    'language1-level': 'Professional Proficiency',
+                    'language2-title': 'Spanish',
+                    'language2-level': 'Native Speaker',
+                    'language3-title': 'Portuguese',
+                    'language3-level': 'Intermediate',
+                    // Contact section
+                    'contact-title': 'Get in Touch',
+                    'contact-name-label': 'Name',
+                    'contact-email-label': 'Email',
+                    'contact-message-label': 'Message',
+                    'contact-consent': 'I agree to receive communications about your services and offerings.',
+                    'contact-submit': 'Send Message',
+                    'contact-info-title': 'Contact Information',
+                    'contact-email': 'hello@yoannahernandez.com',
+                    'contact-phone': '+51 987 654 321',
+                    'contact-location': 'Lima, Peru',
+                    'contact-social-title': 'Connect With Me',
+                    // Footer
+                    'footer-copyright': '© 2025 Yoanna Hernandez. All rights reserved.',
+                    'footer-privacy': 'Privacy Policy',
+                    'footer-terms': 'Terms of Use'
+                },
+                es: {
+                    // Hero section
+                    'hero-role': 'PRODUCT OWNER DIGITAL',
+                    'hero-subtitle': 'DISEÑADORA UX',
+                    'hero-name': 'YOANNA<br>HERNANDEZ',
+                    'hero-tagline': 'Potenciando equipos para crear experiencias digitales significativas',
+                    // About section
+                    'about-title': 'Sobre Mí',
+                    'about-p1': 'Soy una apasionada Product Owner y Líder UX con más de 8 años de experiencia en desarrollo de productos digitales. Mi especialidad es cerrar la brecha entre los objetivos de negocio y las necesidades del usuario, creando productos que entregan un valor excepcional.',
+                    'about-p2': 'Con experiencia tanto en diseño como en gestión de productos, aporto una perspectiva única a cada proyecto. Creo en la toma de decisiones basada en datos, enfoques colaborativos y mejora continua.',
+                    'about-p3': 'Mi trabajo abarca los sectores de servicios financieros, educación, turismo y tecnología, donde he liderado con éxito equipos multifuncionales para ofrecer soluciones digitales innovadoras.',
+                    // Projects section
+                    'projects-title': 'Proyectos Destacados',
+                    'project1-title': 'UX Challenge – BBVA',
+                    'project1-desc': 'Lideré un rediseño integral de UX para la aplicación de banca móvil de BBVA, enfocándome en mejorar los recorridos de usuario y los flujos de transacciones. El proyecto resultó en un aumento del 32% en la satisfacción del usuario y tasas de engagement un 18% más altas.',
+                    'project2-title': 'Adquisición de Talento – Universidad del Pacífico',
+                    'project2-desc': 'Desarrollé una plataforma digital que conecta a estudiantes con potenciales empleadores, agilizando el proceso de reclutamiento para la Universidad del Pacífico. La solución redujo el tiempo de contratación en un 40% y aumentó las tasas de colocación de estudiantes en un 25%.',
+                    'project3-title': 'Turismo MICE – PromPerú',
+                    'project3-desc': 'Creé una estrategia digital para promocionar Perú como destino principal para turismo de Reuniones, Incentivos, Conferencias y Exposiciones (MICE). La iniciativa resultó en un aumento del 45% en eventos empresariales internacionales organizados en Perú.',
+                    'project4-title': 'App UPexperience – Universidad del Pacífico',
+                    'project4-desc': 'Dirigí el desarrollo de una aplicación móvil integral que mejora la experiencia estudiantil en la Universidad del Pacífico. La aplicación integró recursos académicos, servicios del campus y funciones comunitarias, logrando una adopción del 85% entre los estudiantes.',
+                    // Process section
+                    'process-title': 'Cómo Trabajo',
+                    'process1-title': 'Gestión de Stakeholders',
+                    'process1-desc': 'Construyo relaciones sólidas con todos los interesados para alinear los objetivos de negocio con las necesidades de los usuarios, asegurando una comunicación clara y expectativas definidas durante todo el ciclo de vida del proyecto.',
+                    'process2-title': 'Investigación UX',
+                    'process2-desc': 'Realizo investigaciones exhaustivas de usuarios para comprender comportamientos, necesidades y motivaciones, utilizando metodologías como entrevistas, encuestas y pruebas de usabilidad para informar decisiones de producto.',
+                    'process3-title': 'Definición de Producto',
+                    'process3-desc': 'Traduzco los insights de investigación en requisitos claros de producto, creando historias de usuario, definiendo características y estableciendo métricas de éxito que se alinean con los objetivos de negocio y las necesidades del usuario.',
+                    'process4-title': 'Diseño UX',
+                    'process4-desc': 'Creo experiencias de usuario intuitivas y atractivas a través de wireframing, prototipado y procesos de diseño iterativos, enfocándome en usabilidad, accesibilidad y coherencia visual.',
+                    'process5-title': 'Gestión de Backlog',
+                    'process5-desc': 'Priorizo características y requisitos basados en el valor comercial y el impacto en el usuario, gestionando el backlog del producto y colaborando con equipos de desarrollo para garantizar una implementación exitosa.',
+                    // Media section
+                    'instagram-title': 'Últimas Actualizaciones',
+                    'podcast-title': 'Podcast Destacado',
+                    'podcast-episode-title': 'El Futuro de UX en el Desarrollo de Productos',
+                    'podcast-episode-desc': 'En este episodio, discuto cómo las metodologías UX están evolucionando para enfrentar los desafíos del desarrollo moderno de productos, y cómo los product owners pueden aprovechar el diseño centrado en el usuario para crear experiencias digitales más exitosas.',
+                    // Experience section
+                    'experience-title': 'Experiencia Profesional',
+                    'job1-title': 'Senior Product Owner',
+                    'job1-company': 'BBVA Banca Digital',
+                    'job1-period': '2021 - Presente',
+                    'job1-desc': 'Liderando iniciativas de transformación digital para productos de banca minorista, gestionando equipos multifuncionales e implementando metodologías ágiles para mejorar los procesos de desarrollo de productos.',
+                    'job2-title': 'Líder UX & Product Manager',
+                    'job2-company': 'Universidad del Pacífico',
+                    'job2-period': '2018 - 2021',
+                    'job2-desc': 'Dirigí el diseño y desarrollo de productos digitales con fines educativos, incluyendo aplicaciones móviles y plataformas web para mejorar la experiencia estudiantil y la eficiencia administrativa.',
+                    'job3-title': 'Consultora UX',
+                    'job3-company': 'PromPerú',
+                    'job3-period': '2016 - 2018',
+                    'job3-desc': 'Proporcioné consultoría estratégica de UX para iniciativas de promoción turística, realizando investigación de usuarios y desarrollando estrategias digitales para atraer visitantes internacionales y eventos empresariales a Perú.',
+                    // Testimonials section
+                    'testimonials-title': 'Testimonios de Clientes',
+                    'testimonial1-text': '"El enfoque de Yoanna en la gestión de productos transformó nuestra experiencia de banca digital. Su metodología centrada en el usuario y visión estratégica nos ayudó a lograr mejoras notables en la satisfacción y el engagement de los clientes."',
+                    'testimonial1-name': 'Carlos Mendoza',
+                    'testimonial1-position': 'Director de Transformación Digital, BBVA',
+                    'testimonial2-text': '"Trabajar con Yoanna en las plataformas digitales de nuestra universidad fue una experiencia excepcional. Su capacidad para entender tanto las necesidades de los estudiantes como los requisitos institucionales resultó en productos que realmente mejoraron nuestro ecosistema educativo."',
+                    'testimonial2-name': 'Maria Sanchez',
+                    'testimonial2-position': 'Decana de Innovación, Universidad del Pacífico',
+                    'testimonial3-text': '"La experiencia de Yoanna en estrategia UX contribuyó significativamente a posicionar a Perú como un destino principal para el turismo MICE. Su enfoque basado en datos y soluciones creativas nos ayudó a atraer eventos internacionales e impulsar nuestro sector turístico."',
+                    'testimonial3-name': 'Javier Rodriguez',
+                    'testimonial3-position': 'Director de Marketing, PromPerú',
+                    // Languages section
+                    'language1-title': 'Inglés',
+                    'language1-level': 'Dominio Profesional',
+                    'language2-title': 'Español',
+                    'language2-level': 'Nativo',
+                    'language3-title': 'Portugués',
+                    'language3-level': 'Intermedio',
+                    // Contact section
+                    'contact-title': 'Contacto',
+                    'contact-name-label': 'Nombre',
+                    'contact-email-label': 'Correo',
+                    'contact-message-label': 'Mensaje',
+                    'contact-consent': 'Acepto recibir comunicaciones sobre sus servicios y ofertas.',
+                    'contact-submit': 'Enviar Mensaje',
+                    'contact-info-title': 'Información de Contacto',
+                    'contact-email': 'hello@yoannahernandez.com',
+                    'contact-phone': '+51 987 654 321',
+                    'contact-location': 'Lima, Perú',
+                    'contact-social-title': 'Conéctate Conmigo',
+                    // Footer
+                    'footer-copyright': '© 2025 Yoanna Hernandez. Todos los derechos reservados.',
+                    'footer-privacy': 'Política de Privacidad',
+                    'footer-terms': 'Términos de Uso'
+                }
+            };
+            // Set default language
+            let currentLang = 'en';
+            // Function to update content based on language
+            function updateContent(lang) {
+                const elements = document.querySelectorAll('[id]');
+                elements.forEach(el => {
+                    const key = el.id;
+                    if (translations[lang] && translations[lang][key]) {
+                        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                            el.placeholder = translations[lang][key];
+                        } else {
+                            el.innerHTML = translations[lang][key];
+                        }
+                    }
+                });
+                // Update language display
+                document.querySelectorAll('.language-switch > div:first-child span').forEach(span => {
+                    span.textContent = lang.toUpperCase();
+                });
+                currentLang = lang;
+            }
+            // Language switcher event listeners
+            document.querySelectorAll('[data-lang]').forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const lang = this.getAttribute('data-lang');
+                    updateContent(lang);
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
